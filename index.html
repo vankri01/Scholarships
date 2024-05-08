@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: lavenderblush;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: aliceblue/* Lavender color */;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath fill='%23333' d='M10 12L5 7h10l-5 5z'/%3E%3C/svg%3E") no-repeat right 10px center;
+    background-size: 12px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1><u>Scholarship Application Form</u></h1>
+    <img src="https://www.siasat.com/wp-content/uploads/2021/11/photo_2021-11-16_16-10-08.jpg"height="150"alt="scholarship">
+    <br><br>
+    <form>
+    <input type="text" placeholder="Name">
+    <input type="text" placeholder="Father's Name">
+    <input type="number" placeholder="Enter Mobile No">
+    <input type="number" placeholder="Class XII Percentage">
+    <input type="number" placeholder="Class X Percentage">    
+    
+    <input type="text"placeholder="Address">
+   
+    <input type="text"placeholder="City">
+    <br><br><br>
+    <input type="text"placeholder="State">
+    <input type="number"placeholder="Pincode/Zip">
+    <input type="text"placeholder="College/University Name">
+    
+    <input type="text"placeholder="Enter Email ID">
+    <input type="number"placeholder ="Cumulative Average">
+    <input type="text"placeholder="Name of Course">
+    <input type="number"placeholder="Annual Income(in INR)">
+   
+    <br><br>
+    <select name="Gender">
+        <option value="Female">Female</option>
+        <option value="Male">Male</option>
+        <option value="Prefer not to say">Prefer not to say</option>
+    </select>
+    <select name="branch">
+        <option value="Electronics & Communication Engineering">Electronics & Communication Engineering</option>
+        <option value="Computer Science Engineering">Computer Science Engineering</option>
+        <option value="Electrical Engineering">Electrical Engineering</option>
+        <option value="Mechanical Engineering">Mechanical Engineering</option>
+        <option value="Chemical Engineering">Chemical Engineering</option>
+        <option value="Civil Engineering">Civil Engineering</option>
+    </select>
+   
+    <input type="text"placeholder="Name of Bank A/C Holder">
+    <input type="text"placeholder="Bank Name">
+    <input type="text"placeholder="Branch Name">
+    <input type="number"placeholder="Student's A/C Number">
+    <input type="text"placeholder="IFSC Code">
+    <br><br>
+    
+    
+   
+    
+    <p>
+        <input type="number"placeholder="Enter Unique ID/Aadhaar Number"name="id">
+        Any other financial assistance from govt?
+    <input type="radio"value="Yes"name="a" id="101">Yes
+    <input type="radio"value="No"name="a"id="102">No
+    <br><br>
+    <input type="submit"value="SUBMIT">
+    </p>
+</form>
+</body>
+</html>
